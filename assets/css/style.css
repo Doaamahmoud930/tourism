@@ -1,0 +1,473 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #aabdcd;
+}
+aside {
+width: 67px;
+height: 100vh;
+z-index: 2222;
+position: fixed;
+padding-top: 13rem;
+display: block;
+right: 4rem;
+
+}
+aside i{
+  margin-bottom: 1rem;
+  background-color: rgba(253, 250, 250, 0.2);
+}
+.nav-item{
+    margin-left: 45px;
+    font-size: 18px;
+}
+.carousel-item img{
+    height: 100vh;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    height: 5rem ;
+    width: 5rem;
+}
+.navbar{
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
+}
+header{
+    position: relative;
+}
+.overlay{
+    width: 35%;
+    position: absolute;
+top: 72%;
+left: 50%;
+right: 0;
+bottom: 0;
+background-color: rgba(0, 0, 0, 0.8);
+transform: translate(-50%,-28%);
+color: white;
+z-index: 1000;
+text-align: center;
+padding: 20px;
+}
+.p1{
+    font-size: 18px;
+}
+.title-shadow{
+    background-color: rgba(13, 110, 253, 0.25);   
+}
+.title-shadow ,.accordion-button{
+ 
+    box-shadow: 0px 6px 13px black;
+    margin-bottom: 1px;
+}
+.modal-backdrop.show {
+  display: block;
+  z-index: 200;
+}
+#modal{
+      background-color: rgba(0, 0, 0, 0.8);
+}
+.btn-tool .span1{
+opacity: 0;
+}
+.btn-tool:hover .span1{
+    opacity: 1;
+}
+.span2{
+    display: none !important;
+}
+.para-collapse{
+ padding-bottom: 3rem;
+box-shadow: 0px 7px 13px 2px #333131;
+height: 49px;
+background-color: #f1eeee;
+}
+.para-collapse a{
+    font-size: 20px;
+}
+.Welcome-content{
+    margin-bottom: 3rem;
+    box-shadow: 0px 10px 15px #333131;
+
+
+}
+.Welcome-sec{
+    background-color: rgba(13, 110, 253, 0.25);
+}
+.card{
+    width: 30% !important;
+}
+.booking-sec{
+    background-image: url("../images/view-big-ben-clock-tower-london-sunset-uk.jpg");
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    background-attachment: fixed;
+}
+.booking-sec-overlay{
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.booking-item::after{
+    content: "";
+width: 0;
+height: 0;
+position: absolute;
+top: 0;
+left: 0;
+background-color: #c1eef4;
+opacity: 0.5;
+transition: 1s;
+
+}
+.booking-item:hover::after{
+    width: 100%;
+    height: 100%;
+    }
+    .booking-item::before{
+        content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #c1eef4;
+    opacity: 0.5;
+    transition: 1s;
+    
+    }
+    .booking-item:hover::before{
+        width: 100%;
+        height: 100%;
+        }
+.thanks-sec{
+    width: 100%;   
+    margin-top: 100%;
+}
+
+.overlay-sec{
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.thanks-bg{
+    background-image: url("../images/v.jpg");
+    width: 100%;
+    height: 20vh;
+    position: relative;
+    background-attachment: fixed;
+}
+.overlay-sec .card-bg{
+    width: 25% !important;
+    height: 400px;
+    
+}
+.div-start::before{
+content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+
+}
+.div-start::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-style: solid;
+    border-width: 1px 0px 357px 61px;
+    border-color: transparent transparent #aabdcd transparent;
+ 
+}
+
+.div-end::before{
+    content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+    
+    }
+    .div-end::after{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-style: solid;
+        border-width: 184px 36px 338px 0px;
+        border-color: transparent transparent #aabdcd transparent;
+     
+    }
+    .news-content{
+        box-shadow: 0px 10px 15px #333131;
+        background-color: #aabdcd;
+        border: 1px solid #aabdcd;
+    }
+
+.card-bg:hover{
+    transform: scale(0.9,0.9);
+    transition: 1s;
+}
+.btn-play:hover{
+    background-color: rgb(118, 78, 237);
+}
+.join-item{
+    width: 20%;
+    margin-left: 2%;
+    padding: 20px 0;
+    background-color: white;
+    box-shadow: 0px 10px 15px #333131;
+
+}
+.join-icon:hover{
+    opacity: 0.6;
+    transition: 1s;
+}
+.fa-instagram-square{
+    color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.fa-whatsapp-square{color:#e7dbdb;
+    background:
+     linear-gradient(#25d366,#25d366) 14% 84%/16% 16% no-repeat,
+     radial-gradient(#25d366 60%,transparent 0);}
+
+
+
+
+
+
+
+@media(max-width:768px){
+    .con{
+        display: grid;
+
+    }
+    .overlay{
+        width: 80%;
+    }
+    .overlay-btn {
+        width: 43% !important;
+      }
+      .card{
+        width: 45% !important;
+        margin-top: 2rem;
+      }
+      .row{
+        padding: 0 !important;
+      }
+      .booking-sec{
+        height: 20vh !important;
+      }
+      .thanks-sec{
+        margin-top:235%;
+      }
+     
+      .news{
+        margin-top: 500px !important;
+      }
+      .news-content{
+        display:none !important;
+        
+      }
+      .news-phones{
+        display: block !important;
+        margin-left: 35px;
+        
+      }
+      .news-phones .card{
+        margin-bottom: 3rem !important;
+        display: inline-block;
+      }
+      .join-content{
+        display: inline-block !important;
+        margin-left: 30px;
+      }
+      .join-item{
+        width: 45% !important;
+        display: inline-block;
+        margin: auto;
+        margin-bottom: 3rem !important;
+      }
+      .footer-content{
+        display: block !important;
+      }
+      .footer-item{
+        width: 80% !important;
+        margin: auto;
+      }
+}
+
+@media(max-width:992px){
+ 
+    .con{
+        display: grid;
+
+    }
+    .overlay{
+        width: 80%;
+    }
+    .overlay-btn {
+        width: 43% !important;
+      }
+      .card{
+        width: 40% !important;
+        margin-top: 2rem;
+      }
+      .row{
+        padding: 0 !important;
+      }
+      .booking-sec{
+        height: 20vh !important;
+      }
+      .thanks-sec{
+        margin-top:235%;
+      }   
+      .overlay-sec .card-bg {
+        width: 32% !important;
+      }
+      .news{
+        margin-top: 500px !important;
+      }
+      .news-content{
+        display:none !important;
+        
+      }
+      .news-phones{
+        display: block !important;
+        margin-left: 35px;
+      }
+      .news-phones .card{
+        margin-bottom: 3rem !important;
+        display: inline-block;
+        margin-left: 12px !important;
+      }
+      .join-content{
+        padding: 0 !important;
+      }
+      .join-item{
+        width: 35% !important;
+     
+      } 
+      .join-first{
+        margin-left: 0 !important;
+      }
+    
+}
+@media(max-width:1200px){
+  .navbar {
+    padding-left: 1rem !important;
+  }
+  .nav-item {
+    margin-left: 35px !important;
+  }
+      .booking-sec{
+        height: 20vh !important;
+      }
+      .booking-item{
+        width: 45% !important;
+        margin-bottom: 20px;
+      }
+      .thanks-sec{
+        margin-top:240%;
+      }   
+      .overlay-sec .card-bg {
+        width: 32% !important;
+      }
+      .news{
+        margin-top: 500px !important;
+      }
+      .news-para{
+        margin-bottom: 3rem !important;
+      }
+      
+      .join-content{
+        padding: 0 !important;
+      }
+      .join-item{
+        width: 35% !important;
+     
+      } 
+      .join-first{
+        margin-left: 0 !important;
+      }
+    
+}
+
+@media(max-width:576px){
+
+  .con{
+      display: grid;
+
+  }
+  .overlay{
+      width: 80% !important;
+  }
+  .overlay-btn {
+      width: 43% !important;
+    }
+    .card{
+      width: 90% !important;
+      margin-top: 2rem;
+    }
+    .row{
+      padding: 0 !important;
+    }
+    .booking-sec{
+      height: 20vh !important;
+    }
+    .thanks-sec{
+      margin-top:960% !important;
+    }
+    .overlay-sec .card-bg{
+      width: 63% !important;
+      height: 330px !important;
+      
+    }
+    .news{
+      margin-top: 1200px !important;
+    }
+    .news-content{
+      display:none !important;
+      
+    }
+    .news-phones{
+      display: block !important;
+      margin-left: 0 !important;
+      
+    }
+    .news-phones .card{
+      margin-bottom: 3rem !important;
+      
+    }
+    .join-content{
+      display: block !important;
+      margin-left: 1rem;
+    }
+    .join-item{
+      width: 90% !important;
+      margin: auto;
+      margin-bottom: 3rem !important;
+    }
+    .footer-content{
+      display: block !important;
+    }
+    .footer-item{
+      width: 80% !important;
+      margin: auto;
+    }
+}
